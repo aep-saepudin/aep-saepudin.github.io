@@ -43,7 +43,7 @@ body {
 }
 
 .intro {
-	flex: 0 0 250px;
+	flex: 0 0 300px;
 	background-color: var(--color-gray-light-1);
 	box-shadow: 5px 0px 15px 0px #b3b3b3;
 	z-index: 5;
@@ -348,11 +348,28 @@ body {
 	height: 50px;
 }
 .favor-list > li:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	color: var(--color-tiffany);
 }
 .favor-list > li > span {
 	letter-spacing: 1px;
+}
+
+.img-link {
+	text-decoration: none;
+    color: var(--profile-theme);
+    text-align: center;
+}
+
+.img-border {
+	width: 200px;
+	height:115px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.tippy-content {
+	user-select: text;
 }
 
 @keyframes circle {
